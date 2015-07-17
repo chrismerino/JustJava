@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
      */
     public void submitOrder(View view) {
         displayPrice(quantity * priceOfCoffee);
-        String priceMessage = "Total: " + quantity + " coffees.\nYou pay $" + (quantity * priceOfCoffee) + " dollars.";
+        String priceMessage = "Your total is: " + quantity + " coffees.\nYou pay $" + (quantity * priceOfCoffee) + " dollars.";
         displayMessage(priceMessage);
     }
 
