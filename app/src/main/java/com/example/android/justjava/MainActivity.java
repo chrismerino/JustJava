@@ -19,6 +19,7 @@ public class MainActivity extends ActionBarActivity {
     int quantity = 2;
     int priceOfCoffee = 5;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +30,9 @@ public class MainActivity extends ActionBarActivity {
      * This method is called when the ORDER BUTTON is clicked.
      */
     public void submitOrder(View view) {
-        displayPrice(quantity * priceOfCoffee);
-        String priceMessage = "Your total is: " + quantity + " coffees.\nYou pay $" + (quantity * priceOfCoffee) + " dollars.";
+        int finalPrice = (quantity * priceOfCoffee);
+        displayPrice(finalPrice);
+        String priceMessage = "Your total is: " + quantity + " coffee(s).\nYou pay $" + finalPrice + " dollar(s).\nThank you for your purchase!";
         displayMessage(priceMessage);
     }
 
