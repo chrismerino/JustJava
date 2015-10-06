@@ -1,25 +1,129 @@
 <resources>
     <string name="app_name">Just Java</string>
 
+    <!--
+          Settings button. It will be shown in the format of
+          "Settings". [CHAR LIMIT=15]
+        -->
     <string name="action_settings">Settings</string>
-    <string name="your_name">Your Name</string>
+
+    <!--
+          User name TextView. It will be shown in the format of
+          "Your Name". [CHAR LIMIT=15]
+        -->
+    <string name="your_name">Your name</string>
+
+    <!--
+          EditText hint. It will be shown in the format of
+          "Please type your name". [CHAR LIMIT=30]
+        -->
     <string name="type_your_name">Please type your name</string>
+
+    <!--
+          Toppings header. It will be shown in the format of
+          "Toppings". [CHAR LIMIT=15]
+        -->
     <string name="toppings_header">Toppings</string>
+
+    <!--
+          Whipped Cream checkbox. It will be shown in the format of
+          "Whipped Cream". [CHAR LIMIT=15]
+        -->
     <string name="whipped_cream">Whipped Cream</string>
+
+    <!--
+          Chocolate checkbox. It will be shown in the format of
+          "Chocolate". [CHAR LIMIT=15]
+        -->
     <string name="chocolate">Chocolate</string>
+
+    <!--
+          Quantity text. It will be shown in the format of
+          "Quantity". [CHAR LIMIT=10]
+        -->
     <string name="quantity">Quantity</string>
+
+    <!--
+          Minus button text. It will be shown in the format of
+          "-". [CHAR LIMIT=1]
+        -->
     <string name="minus_button">-</string>
+
+    <!--
+          Quantity number shown in the Quantity_TextView. It will be shown in the format of
+          "2". [CHAR LIMIT=1]
+        -->
     <string name="quantity_number">2</string>
+
+    <!--
+          Plus button text. It will be shown in the format of
+          "+". [CHAR LIMIT=1]
+        -->
     <string name="plus_button">+</string>
+
+    <!--
+          Order button text. It will be shown in the format of
+          "Order". [CHAR LIMIT=10]
+        -->
     <string name="order_button">Order</string>
+
+    <!--
+          Greetings message. It will be shown in the format of
+          "Hello". [CHAR LIMIT=10]
+        -->
     <string name="hello">Hello, </string>
+
+    <!--
+      Subject line for the order summary email. It will be in the format of
+      "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
     <string name="order_ready">, your order is ready!</string>
-    <string name="receipt">Here is the receipt for your order.</string>
+
+    <!--
+          Email body header. It will be shown in the format of
+          "Here is your order details.". [CHAR LIMIT=NONE]
+        -->
+    <string name="receipt">Here is the receipt of your order.</string>
+
+    <!--
+          Email body subheader. It will be shown in the format of
+          "ORDER DETAILS". [CHAR LIMIT=20]
+        -->
     <string name="order_details">ORDER DETAILS</string>
+
+    <!--
+      Name line for the order summary email. It will be in the format of
+      "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
     <string name="name">Name</string>
+
+    <!--
+      Whipped cream topping for the order summary. It will be shown in the format of
+      "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+    -->
     <string name="add_whipped_cream">Add Whipped Cream?</string>
+
+    <!--
+      Chocolate topping for the order summary. It will be shown in the format of
+      "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+    -->
     <string name="add_chocolate">Add Chocolate?</string>
+
+    <!--
+          Total of your order. It will be shown in the format of
+          "Your total is.". [CHAR LIMIT=NONE]
+        -->
     <string name="your_total">Your total is</string>
+
+    <!--
+          Location currency. It will be shown in the format of
+          "dollars.". [CHAR LIMIT=10]
+        -->
     <string name="dollars">dollars</string>
+
+    <!--
+          Final thank you message. It will be shown in the format of
+          "Thank you for your purchase.". [CHAR LIMIT=NONE]
+        -->
     <string name="thank_you">Thank you for your purchase!</string>
 </resources>
